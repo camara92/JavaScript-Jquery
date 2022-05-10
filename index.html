@@ -13,9 +13,9 @@
 
 <body>
     <header class="flex">
-        <div class="row bg-dark text-white border-danger m-1 ">
-            <div class="col-md-1 my-1 bg-gradient text-center">logo</div>
-            <div class="col-md-7 my-1 bg-gradient">
+        <div class="navbarheader row bg-black text-white border-danger m-1 ">
+            <div id="logo" class="col-md-1 my-2 bg-danger text-center">logo</div>
+            <div class="col-md-7 my-2">
                 <nav>
                     <ul class="unlisted d-flex text-center jcc g-15 shadow ">
                         <li class=""><a href="">Accueil </a></li>
@@ -26,15 +26,17 @@
                 </nav>
             </div>
             <div class="col-md-4">
-                <form class="" action="" method="post">
-                    <input type="text" class="my-1">
+                <form class="my-2" action="" method="post">
+                    <input class="text-center" type="text"placeholder="Saisir votre recherche.............." class="my-1">
                     <button class="bg-success" for="recherche">Recherche</button>
                 </form>
             </div>
         </div>
     </header>
     <main>
+        <h1 class="absoluteH1">Atlas du web 2022  </h1>
         <div id="slider">
+            
             <img src="https://picsum.photos/600/400?random=1" class="w-90" alt="imageSlider" id="slide">
             <div id="precedent" onclick="ChangeSlide(-1)">
                 <i class="fa-solid fa-circle-chevron-left"></i>
@@ -72,7 +74,7 @@
                 <ul class="unlisted">
                     <li><a href="">Accueil</a></li>
                     <li><a href="">Nous joindre</a> </li>
-                    <li><a href="">Nos services</a> </li>
+                    <li><a href="./partials/contacts.php">Contacts</a> </li>
                 </ul>
             </div>
 
