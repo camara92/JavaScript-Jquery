@@ -124,5 +124,18 @@ body {
 #slider:hover #suivant {
     opacity: 1;
 }
-
+i{
+    font-size: 30px;
+}
 /*end style slider */
+
+
+/*Footer styles add s*/
+
+footer{
+    font-size: 18px;
+}
+#hr{
+    font-weight: bold;
+    font-size: 30px;
+}
