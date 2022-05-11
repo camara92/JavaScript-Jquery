@@ -1,13 +1,23 @@
-#formulaireh2{
-    border-radius: 50px;
-    color: white !important;
-    font-size: 35px;
-}
-#contact-form{
-    margin: 20px;
+#contact-form {
+
+
     border-radius: 10px;
-    border: 10px solid rgb(15, 232, 199);
-    font-size: 20px;
+    border: 2px solid rgb(1, 19, 56);
+    font-size: 18px;
     color: black;
     font-weight: bold;
+}
+
+#h2titre {}
+
+i {
+    list-style: none;
+    width: 50px;
+    font-size: 25px;
+    background-color: rgb(0, 255, 213);
+    color: black;
+
+}
+#btnretour{
+    border: none;
 }
