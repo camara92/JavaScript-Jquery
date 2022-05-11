@@ -18,3 +18,10 @@ function ChangeSlide(sens) {
     //ici en bas on peut slider par un timer 
     //setInterval("ChangeSlide(1)", 5000);
 }
+
+var createShop = function () {
+	var shop = document.getElementById("boutique");
+	for(var i = 0; i < catalogue.length; i++) {
+		shop.appendChild(createProduct(catalogue[i], i));
+	}
+}
